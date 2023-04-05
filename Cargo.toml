@@ -1,0 +1,30 @@
+[package]
+name = "bluetooth-classic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.156", features = ["derive"] }
+serde_json = { version = "1.0.94" }
+tokio = { version = "1.26.0", features = ["time"] }
+windows = { version = "0.48.0", features = [
+  "Win32_System_Rpc",
+  "Win32_Networking_WinSock",
+  "Win32_Devices_Bluetooth",
+  "Win32_Foundation",
+  "Devices_Bluetooth_Rfcomm",
+  "Foundation",
+  "Devices_Enumeration",
+  "Foundation_Collections",
+  "Networking_Proximity",
+] }
+# windows-sys = { version = "0.48.0", features = [
+#   "Win32_Networking_WinSock",
+#   "Win32_Devices_Bluetooth",
+#   "Win32_Foundation",
+# ] }
+[dev-dependencies]
+tokio = { version = "*", features = ["time", "macros", "rt"] }
+

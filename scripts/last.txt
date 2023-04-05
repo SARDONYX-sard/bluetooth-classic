@@ -1,0 +1,19 @@
+
+InstanceId KeyName                                   Type       Data
+---------- -------                                   ----       ----
+USB\VID_0… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTH\MS_BT… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTH\MS_BT… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\D… DEVPKEY_Bluetooth_LastConnectedTime       FileTime   21/09/22/水曜日 午前 12:58:33
+BTHENUM\D… DEVPKEY_Bluetooth_LastConnectedTime       FileTime   22/11/18/金曜日 午後 1:02:47
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTH\MS_RF… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\D… DEVPKEY_Bluetooth_LastConnectedTime       FileTime   21/12/16/木曜日 午後 10:39:02
+BTHENUM\{… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+BTHENUM\D… DEVPKEY_Bluetooth_LastConnectedTime       Empty      
+
