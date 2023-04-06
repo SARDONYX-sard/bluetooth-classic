@@ -6,6 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+hex = "0.4.3"
+macaddr = { version = "1.0.1" }
 serde = { version = "1.0.156", features = ["derive"] }
 serde_json = { version = "1.0.94" }
 tokio = { version = "1.26.0", features = ["time"] }
@@ -27,4 +29,3 @@ windows = { version = "0.48.0", features = [
 # ] }
 [dev-dependencies]
 tokio = { version = "*", features = ["time", "macros", "rt"] }
-
